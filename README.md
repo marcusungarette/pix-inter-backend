@@ -15,7 +15,7 @@ yarn start:dev
 ```
 
 
-### 1) Docker commands to build de Postgres Database
+### 1) Docker commands to build Postgres Database
 
 Execute this command inside docker-compose directory to build and run this project:
 
