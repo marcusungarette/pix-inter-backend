@@ -1,8 +1,14 @@
-import { Request, Response } from 'express';
+import { Request, Response, NextFunction } from 'express';
 
 import AppError from '../shared/error/AppError';
 
-function globalErrors(err: Error, request: Request, response: Response) {
+function globalErrors(
+  err: Error,
+  request: Request,
+  response: Response,
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  next: NextFunction,
+) {
   if (err instanceof AppError) {
     response.status(err.statusCode).json({
       status: 'error',

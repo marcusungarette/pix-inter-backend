@@ -2149,7 +2149,7 @@ pg-types@^2.1.0:
     postgres-date "~1.0.4"
     postgres-interval "^1.1.0"
 
-pg@^8.6.0:
+pg@^8.7.1:
   version "8.7.1"
   resolved "https://registry.yarnpkg.com/pg/-/pg-8.7.1.tgz#9ea9d1ec225980c36f94e181d009ab9f4ce4c471"
   integrity sha512-7bdYcv7V6U3KAtWjpQJJBww0UEsWuh4yQ/EjNf2HeO/NnvKjpvhEIe/A/TleP6wtmSKnUnghs5A9jUoK6iDdkA==
@@ -2180,13 +2180,6 @@ pkg-dir@^2.0.0:
   integrity sha1-9tXREJ4Z1j7fQo4L1X4Sd3YVM0s=
   dependencies:
     find-up "^2.1.0"
-
-postgre@^0.1.8:
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/postgre/-/postgre-0.1.8.tgz#9b6f8aa21d672691dbe839026c8faaa6ec642b5e"
-  integrity sha512-nP65V7ZxDzrvo1XD1Ks1rATx/QzySF6s1tNiRlv5PDghjA+YPzxvvncM/sN0hqZWjz78Txct6gArbxmxNBonXQ==
-  dependencies:
-    pg "^8.6.0"
 
 postgres-array@~2.0.0:
   version "2.0.0"

@@ -7,7 +7,7 @@
     "username": "admin",
     "password": "dio-inter",
     "database": "inter",
-    "entities": ["src/entity/*.ts"],
+    "entities": ["src/entities/*.ts"],
     "logging": false,
     "synchronize": true
 }

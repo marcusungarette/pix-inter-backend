@@ -18,7 +18,7 @@ export default class UserService {
     });
 
     if (!existUser) {
-      throw new AppError('User does not exists!', 400);
+      throw new AppError('User does not exists!', 401);
     }
 
     return existUser;

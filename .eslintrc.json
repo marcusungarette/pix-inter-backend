@@ -36,6 +36,7 @@
       "no-shadow": "off",
       "no-console": "off",
       "no-useless-constructor": "off",
+      "default-param-last": "off",
       "no-empty-function": "off",
       "lines-between-class-members": "off",
       "import/extensions": [
