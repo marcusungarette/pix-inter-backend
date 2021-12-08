@@ -897,6 +897,11 @@ eslint-module-utils@^2.7.1:
     find-up "^2.1.0"
     pkg-dir "^2.0.0"
 
+eslint-plugin-import-helpers@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-import-helpers/-/eslint-plugin-import-helpers-1.2.0.tgz#36c6b19ee1470237aff3bb5a10c19fc1f325dc13"
+  integrity sha512-xlGTXwavBcvILcJJIuFZkXE6eMr86BgpcWTzUD0HepvYiTJXtN2enEsJT6SnuXONWflIgw24p9xWA1P/ZY2Nyw==
+
 eslint-plugin-import@^2.25.3:
   version "2.25.3"
   resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.25.3.tgz#a554b5f66e08fb4f6dc99221866e57cfff824766"
@@ -2144,7 +2149,7 @@ pg-types@^2.1.0:
     postgres-date "~1.0.4"
     postgres-interval "^1.1.0"
 
-pg@^8.6.0:
+pg@^8.7.1:
   version "8.7.1"
   resolved "https://registry.yarnpkg.com/pg/-/pg-8.7.1.tgz#9ea9d1ec225980c36f94e181d009ab9f4ce4c471"
   integrity sha512-7bdYcv7V6U3KAtWjpQJJBww0UEsWuh4yQ/EjNf2HeO/NnvKjpvhEIe/A/TleP6wtmSKnUnghs5A9jUoK6iDdkA==
@@ -2175,13 +2180,6 @@ pkg-dir@^2.0.0:
   integrity sha1-9tXREJ4Z1j7fQo4L1X4Sd3YVM0s=
   dependencies:
     find-up "^2.1.0"
-
-postgre@^0.1.8:
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/postgre/-/postgre-0.1.8.tgz#9b6f8aa21d672691dbe839026c8faaa6ec642b5e"
-  integrity sha512-nP65V7ZxDzrvo1XD1Ks1rATx/QzySF6s1tNiRlv5PDghjA+YPzxvvncM/sN0hqZWjz78Txct6gArbxmxNBonXQ==
-  dependencies:
-    pg "^8.6.0"
 
 postgres-array@~2.0.0:
   version "2.0.0"
