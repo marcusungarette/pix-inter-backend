@@ -78,7 +78,7 @@ export default class PixService {
 
     await pixRepository.save(pixTransaction);
 
-    return { mag: 'Pagamento efetudo com sucesso' };
+    return { msg: 'Pagamento efetuado com sucesso' };
   }
 
   // Statement - RECEIVED AND PAYED - Final Balance
@@ -117,8 +117,7 @@ export default class PixService {
 
     const allTransactions = received.concat(paying);
 
-    // TODO - try to use arrow function to deal with typescript error ->  allTransactions.sort((a, b) => {
-    allTransactions.sort(function (a, b) {
+    allTransactions.sort((a, b) => {
       const dateA = new Date(a.updatedAt).getTime();
       const dateB = new Date(b.updatedAt).getTime();
       return dateA < dateB ? 1 : -1;
