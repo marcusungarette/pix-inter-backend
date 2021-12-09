@@ -30,10 +30,10 @@ class Pix {
   value: number;
 
   @CreateDateColumn()
-  createAt: Date;
+  createdAt: Date;
 
   @UpdateDateColumn()
-  updateAt: Date;
+  updatedAt: Date;
 }
 
 export { Pix };
